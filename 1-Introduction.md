@@ -134,9 +134,3 @@ Work in small steps and constantly test (divide and conquer).
   * Producing wrong output
   * Not doing anything
   * Crashing computer
-
-## Overview - How to Install
-
-Mac
-* C compiler (developer tools in XCode)
-* IDEs (not Codeblocks, use Visual Studio or XCode)
