@@ -18,5 +18,5 @@ printf("Hello World\n");
 }
 ```
 
-*`Then `gcc test.c`
-  * `./a.out`
+   * `Then `gcc test.c`
+   * `./a.out`
