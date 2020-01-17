@@ -21,6 +21,7 @@
 3. `mkdir helloworld` (creating folder called `helloworld` inside `projects folder`)
 4. `cd helloworld` (going into `helloworld`)
 5. `code .` to start VS Code with a workspace directory as `helloworld`
+    - Enable from the instructions [here](https://code.visualstudio.com/docs/setup/mac)
 
 ### Setting up the Compiler
 1. Configure compiler path by `Ctrl + Shift + P`
@@ -52,7 +53,7 @@
 3. Change program to executable name (usually `helloworld`)
 4. Make sure stopAtEntry is `true`
 5. Create a source file to make sure everything works (`helloworld.c`)
-    * 🌵*Update: Download CodeLLDB extension in VS Code and follow the recommended configurations for debugger to work*
+    * 🌵 *Update: Download [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) extension in VS Code and follow the recommended configurations for debugger to work*
 6. Run tasks by `Ctrl + Shift + B`
 7. ❗️ Make sure `helloworld.c` is not in the `.vscode` folder - only `.json` files should be in `.vscode` folder
 8. Type `./helloworld.exe` to execute
