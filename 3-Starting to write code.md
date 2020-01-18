@@ -65,3 +65,10 @@
 3. Debug view will have call stack listen with breakpoints set (breakpoint will be highlighted)
 4. Click step over and some things in debug view will change
 5. Click play to exit
+
+## Creating and running your first C program
+
+1. Create a new project called SampleApp
+2. Build (and run) the program
+    * Download [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) and build by using `Control + Option + N`
+    * Try building again but make an error in the code (remove semi-colon etc.)
