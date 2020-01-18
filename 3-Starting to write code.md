@@ -72,3 +72,49 @@
 2. Build (and run) the program
     * Download [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) and build by using `Control + Option + N`
     * Try building again but make an error in the code (remove semi-colon etc.)
+
+## Writing a C program that displays your name
+
+### Requirements
+* Write a C program that displays first name as output
+1. Create project in code::blocks
+2. Delete `main.c` file that was auto-generated
+3. Create new C source file (named `test.c`)
+4. Copy source code into `test.c` program
+
+```
+#include <stdio.h>
+
+int main()
+{
+    printf("Hi, my name is ...\n");
+    return 0;
+}
+```
+
+### Process
+1. **Edit** - Modify source code to display your name
+2. **Compile** - compile and link the source code
+3. **Run** - run the program
+4. **Analyse** - analyse output to confirm it is correct and displays your name
+
+## Structure of a C Program
+
+* Case-sensitive
+* Line/indentation does not matter (unlike eg. Python)
+    * 💡 But proper line spacing/indentation makes code more readable
+* Lines end with semi-colon `;`
+
+` int main()`
+* Main function - entry point to the program
+* Function as seen by parenthesis
+* `int` - function will return an integer (can be `void`, so don't return anything)
+
+`{}`
+* Encloses a block of code
+
+`printf(...);`
+* Block of code for main function
+
+`#include <stdio.h>`
+* Importing a library to be used
