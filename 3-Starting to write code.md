@@ -109,6 +109,7 @@ int main()
 * Main function - entry point to the program
 * Function as seen by parenthesis
 * `int` - function will return an integer (can be `void`, so don't return anything)
+* `main()` - can be `main(void)` so `main` will not accept any parameter
 
 `{}`
 * Encloses a block of code
