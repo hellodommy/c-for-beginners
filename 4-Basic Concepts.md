@@ -99,3 +99,48 @@ Header files can include
 * Structure declarations
 * `typedef` statements
 * Function prototypes
+
+## Displaying Output
+
+* Using `printf()`
+  * A standard library function
+  * Outputs information to command line
+* Provides an easy and convenient means to display program results
+* Values of variables and results of computations can also be displayed (on top of simple phrases)
+* Used for debugging
+
+## Reading Input from the Terminal
+
+* Very useful to ask the user to enter data into a program (via terminal/console)
+* C library contains several input functions, `scanf()` is the most general
+* Reads input from standard input stream `stdin` and scans that input according to the format provided
+  * Can be a constant strig but you can specify `%s`, `%d`, `%c`, `%f`, etc. to read strings, integer, character, floats
+* `scanf()` converts the string character-by-character to a numerical value (whatever value specified)
+* Uses whitespace to decide how to divide the input into separate fields
+* When program uses `scanf()` to gather input, it waits for you to input some text
+  * When you enter text and press enter, program proceeds and reads the input
+
+### printf() vs scanf()
+* `printf()` uses variable names, constants and expressions as its argument list
+* `scanf()` uses pointers to variables
+
+### 3 rules about scanf()
+1. Returns number of items it successfully readers
+2. If use scanf() to read a value for one of the basic variable types, preceded the vairable name with an `&`
+3. If use scanf() to read a string into character array, don't use `&` 
+
+```
+#include <stdio.h>
+int main() {
+
+    char str[100];
+    int i;
+
+    printf("Enter a value: ");
+    scanf("%s %d", str, &i);
+
+    printf(\nYou entered: %s %d", str, i);
+
+    return 0;
+}
+```
